@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingActivity">
+
+    <TextView
+        android:id="@+id/username_3"
+        android:layout_width="266dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal|top"
+        android:lineSpacingExtra="8sp"
+        android:text="Настройки"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/authorizationBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="UnknownIdInLayout" />
+
+    <Button
+        android:id="@+id/deleteBtn"
+        android:layout_width="350dp"
+        android:layout_height="63dp"
+        android:backgroundTint="#2589FF"
+        android:fontFamily="sans-serif"
+        android:text="Сбросить настройки"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.111"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="350dp"
+        android:layout_height="131dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/image7"
+        tools:layout_editor_absoluteY="336dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="39dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/image8" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="350dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="24dp"
+        android:checked="true"
+        android:importantForAccessibility="auto"
+        android:text="Отображать мое местоположение"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        android:thumbTint="#2588FE"
+        android:trackTint="#2588FE"
+        app:layout_constraintBottom_toTopOf="@+id/switch2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Switch
+        android:id="@+id/switch3"
+        android:layout_width="350dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="28dp"
+        android:thumbTint="#2588FE"
+        android:trackTint="#2588FE"
+        android:text="Скрыть объявление без фотографий"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:checked = "true"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="350dp"
+        android:layout_height="53dp"
+        android:thumbTint="#2588FE"
+        android:trackTint="#2588FE"
+        android:layout_marginBottom="16dp"
+        android:text="Уведомлять меня о новых объявлениях"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/switch3"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:checked = "true"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

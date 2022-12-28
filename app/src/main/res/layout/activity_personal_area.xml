@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PersonalAreaActivity">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="36dp"
+        android:layout_height="34dp"
+        android:translationZ="90dp"
+        app:layout_constraintEnd_toEndOf="@+id/authorizationBtn"
+        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintStart_toStartOf="@+id/authorizationBtn"
+        app:srcCompat="@drawable/image6"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="288dp" />
+
+    <TextView
+        android:id="@+id/username_2"
+        android:layout_width="266dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal|top"
+        android:lineSpacingExtra="8sp"
+        android:text="Личный кабинет"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/authorizationBtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.259"
+        app:srcCompat="@drawable/image4"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/username_"
+        android:layout_width="282dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="112dp"
+        android:gravity="center_horizontal|top"
+        android:lineSpacingExtra="8sp"
+        android:text="Привет,                   !"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/mapBtn"
+        android:layout_width="350dp"
+        android:layout_height="67dp"
+        android:layout_marginBottom="344dp"
+        android:backgroundTint="#2589FF"
+        android:fontFamily="sans-serif"
+        android:text="Смотреть квартиры на карте"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.4"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="112dp"
+        android:text="Username"
+        android:textColor="#2588FE"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="36dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/image2"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="36dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/image3"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="350dp"
+        android:layout_height="249dp"
+        app:srcCompat="@drawable/image5"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="377dp" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

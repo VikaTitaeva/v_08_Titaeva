@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "232242114662",
+    "project_id": "titaeva-08",
+    "storage_bucket": "titaeva-08.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:232242114662:android:2c06a0554852e1fa40bda7",
+        "android_client_info": {
+          "package_name": "com.example.titaeva_v_08"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "232242114662-rbpgrpo5b1k8ipjfd36ko9jdqrgkueou.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgSGy7vpokjfaDRNRLUKsaVk4R-1B7vG0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "232242114662-rbpgrpo5b1k8ipjfd36ko9jdqrgkueou.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
